@@ -10,54 +10,5 @@
             "name": "michal54543543534"
         }
     ],
-    "files": [
-        {
-            "user": "michal5678",
-            "file": "a861171fc066fec38f8fc4e896c7d2ba.png"
-        },
-        {
-            "user": "michal5678",
-            "file": "b4cc130131ae4db2bdadd1ac254e715d.png"
-        },
-        {
-            "user": "michal5678",
-            "file": "e4aff6e3709a7724ce66e9fa39554d01.png"
-        },
-        {
-            "user": "michal5678",
-            "file": "4afd763bf18e73d9ac75cc3ece7d8189.png"
-        },
-        {
-            "user": "michal54543543534",
-            "file": "6f49d7cc7af85e0cc36cc7a712383217.png"
-        },
-        {
-            "user": "michal54543543534",
-            "file": "387b19c8c0e5cff3f3dca0ef9adabef3.png"
-        },
-        {
-            "user": "michal54543543534",
-            "file": "be429ca7f8b6410321888671c848b1b0.png"
-        },
-        {
-            "user": "michal54543543534",
-            "file": "5b77c904102d768c62fa65a9757f7c6a.png"
-        },
-        {
-            "user": "michal54543543534",
-            "file": "00b419b2157631316c017e21fd0ab43b.png"
-        },
-        {
-            "user": "michal54543543534",
-            "file": "70116ae914ceb0bcfc6a3aade8098370.png"
-        },
-        {
-            "user": "tomek1234",
-            "file": "fdf249ef0a5a7cec685ecda99640d813.png"
-        },
-        {
-            "user": "tomek1234",
-            "file": "a62a5eab88a3f2c53afc36b89e2f2419.png"
-        }
-    ]
+    "files": []
 }
