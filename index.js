@@ -1,7 +1,8 @@
+process.chdir(__dirname);
 var express = require('express')
 var expressHandlebars  = require('express-handlebars');
 var multer  = require('multer')
-var upload = multer({ dest: 'uploads/' })
+var upload = multer({ dest: './uploads/' })
 var dataLib = require('./lib/data');
 var path = require('path');
 var fs = require('fs');
@@ -64,8 +65,6 @@ app.post('/upload', upload.array('images'), function (req, res) {
     return res.render('no-files');
   }
 
-  console.log(req.files);
-
   async.waterfall([
     function (done) {
       dataLib.loadData('data.json', function(err, data) {
@@ -80,7 +79,6 @@ app.post('/upload', upload.array('images'), function (req, res) {
       async.mapSeries(req.files, function (file, done) {
         var ext = path.extname(file.originalname);
         var basename = path.basename(file.path);
-        console.log(path.join(basename, file.filename + ext))
 
         fs.rename(file.path, path.join(file.destination, file.filename + ext), function (err) {
           return done(err, file.filename + ext);
