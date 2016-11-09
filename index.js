@@ -132,7 +132,7 @@ app.post('/user-images/:user', function (req, res) {
     var imagesLinks = data.files.filter(function (file) {
       return file.user === req.params.user;
     }).map(function (file) {
-      return req.protocol + '://' + req.hostname + ':' + req.port + '/images/' + file.file;
+      return req.protocol + '://' + req.get('host') + '/images/' + file.file;
     });
 
     return res.json({
