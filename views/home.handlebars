@@ -1,0 +1,24 @@
+<div class="">
+  Uzytkownik:
+  <select class="user-selection">
+    {{#select currentUser}}
+      {{#each users}}
+        <option value="{{this}}">{{this}}</option>
+      {{/each}}
+    {{/select}}
+  </select>
+</div>
+<h2>Aktualne obrazki uzytkownika:</h2>
+<div class="current-images">
+  {{#each images}}
+    <img src="/images/{{this}}" />
+  {{/each}}
+</div>
+<h2>Zładuj nowe obrazki:</h2>
+<div class="upload-form">
+  <form class="" action="/upload" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="user" value="{{currentUser}}">
+    <input type="file" name="images" multiple accept="image/*">
+    <input type="submit" name="upload" value="Załaduj">
+  </form>
+</div>
