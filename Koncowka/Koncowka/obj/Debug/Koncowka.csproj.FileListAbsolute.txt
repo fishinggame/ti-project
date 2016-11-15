@@ -1,0 +1,15 @@
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\bin\Debug\Koncowka.exe.config
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\bin\Debug\Koncowka.exe
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\bin\Debug\Koncowka.pdb
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.csprojResolveAssemblyReference.cache
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.Properties.Resources.resources
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.csproj.GenerateResource.Cache
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.exe
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.pdb
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.MainForm.resources
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\Desktop\projZesPetr\Koncowka\Koncowka\obj\Debug\Koncowka.Viewer.resources
+C:\Users\Michal\Source\Repos\ti-project\Koncowka\Koncowka\bin\Debug\Koncowka.exe.config
+C:\Users\Michal\Source\Repos\ti-project\Koncowka\Koncowka\obj\Debug\Koncowka.exe
+C:\Users\Michal\Source\Repos\ti-project\Koncowka\Koncowka\obj\Debug\Koncowka.pdb
